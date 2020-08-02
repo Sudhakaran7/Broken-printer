@@ -1,0 +1,48 @@
+Sudhakaran bought a printer, unfortunately it broken and it's functionality changed into two types,
+The printer can only print a sequence of the same character each time.
+At each turn, the printer can print new characters starting from and ending at any places, and will cover the original existing characters.
+so sudhakaran has to find the minimum number of ways the printer needed in order to print it.
+Constraint:Input should be in lowercase alphabets.
+
+Input Description:
+Lowercase string S as input
+
+Output Description:
+the minimum number of ways the printer needed in order to print it
+
+Sample Input:
+abcaa
+
+Sample Output:
+3
+
+Explanation:
+Initially the printer will print,
+aaaaa -> count 1
+abaaa -> count 2
+abcaa -> count 3
+so output is 3
+
+Sample Input:
+seeeefghuuuuiioow
+
+Sample Output:
+9
+
+Sample Input:
+wweeeffhgs
+
+Sample Output:
+6
+
+Sample Input:
+bboodeeerrrr
+
+Sample Output:
+5
+
+Sample Input:
+helloworld
+
+Sample Output:
+7
